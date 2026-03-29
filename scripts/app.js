@@ -38,6 +38,7 @@ function loadData() {
   if (Array.isArray(habbitArray)) {
     habbits = habbitArray;
   }
+  render();
 }
 
 function saveData() {
